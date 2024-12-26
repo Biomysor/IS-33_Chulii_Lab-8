@@ -57,8 +57,9 @@ galleryContainer.addEventListener('click', (event) => {
         
         const instance = basicLightbox.create(`
             
-            <img src="${originalImageUrl}" alt="${description}">`);
-        
+            <img src="${originalImageUrl}" alt="${description}">
+           `);
+            
         instance.show();
     }
 });

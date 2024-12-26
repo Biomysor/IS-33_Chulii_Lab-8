@@ -38,5 +38,28 @@ ul.gallery img:hover {
         grid-template-columns: 1fr;
     }
 }
+.feedback-form {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .feedback-form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+  .feedback-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .feedback-form button:hover {
+    background-color: #0056b3;
+  }
 
 
