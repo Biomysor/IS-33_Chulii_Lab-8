@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+   
+    text-align: center;
+}
+
+ul.gallery {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    list-style-type: none;
+    padding: 100px;
+    
+    gap: 10px;
+    list-style-type: none;
+ 
+}
+
+ul.gallery li {
+    position: relative;
+}
+
+ul.gallery img {
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+ul.gallery img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    ul.gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+
