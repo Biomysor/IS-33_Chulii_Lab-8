@@ -1,4 +1,3 @@
-
 const images = [
     {
         preview: 'images/car1.jpg',
@@ -58,7 +57,7 @@ galleryContainer.addEventListener('click', (event) => {
         const instance = basicLightbox.create(`
             
             <img src="${originalImageUrl}" alt="${description}">
-           `);
+            `);
             
         instance.show();
     }
